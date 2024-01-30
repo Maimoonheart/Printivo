@@ -1,13 +1,19 @@
 .hand{
     position: relative;
-    left: 300px;
-    width: 55%; 
-    margin-top: 60px;
+    left: 700px;
+    width: 35%; 
+    margin-top: -150px;
 }
 .hero{
     height: 70vh;
 }
-
+#input{
+    border: none;
+     width: 400px;
+      margin-top: 10px; 
+      margin-left: 10px; 
+      padding: 15px;
+}
 
 @media screen and (max-width:481px) {
     .ve{
@@ -23,6 +29,15 @@
        /* align-items: center; */
        /* text-align: center; */
        /* justify-items: center; */
-       margin-left: 90px;
+       margin-left: 70px;
     }
+    #input{
+        border: none;
+         width: 300px;
+          margin-top: 10px; 
+          margin-left: 10px; 
+          padding: 15px;
+    }
+    
+    
 }
