@@ -1,0 +1,28 @@
+.hand{
+    position: relative;
+    left: 300px;
+    width: 55%; 
+    margin-top: 60px;
+}
+.hero{
+    height: 70vh;
+}
+
+
+@media screen and (max-width:481px) {
+    .ve{
+        height: 10vh;
+    }
+    .hand{
+        display: none;
+    } 
+    .hero{
+       height: 25vh; 
+    }
+    #maim{
+       /* align-items: center; */
+       /* text-align: center; */
+       /* justify-items: center; */
+       margin-left: 90px;
+    }
+}
